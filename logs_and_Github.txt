@@ -1,0 +1,124 @@
+Repo Link: https://github.com/memo2120005/Git-Assignment
+
+
+PS C:\Users\mahmo\OneDrive\Desktop\git3> git log --patch
+commit 4cb32649c6e32f54ff3c0a024fa1a20895e729e3 (HEAD -> main, tag: first_commit_on_new_branch, origin/main, newbranch)
+Author: mahmoud <mahmoudayman20055@yahoo.com>
+Date:   Wed Oct 22 22:17:31 2025 +0300
+
+    This is the commit on the new branch
+
+diff --git a/mah.txt b/mah.txt
+index 95c75cb..46129bf 100644
+--- a/mah.txt
++++ b/mah.txt
+@@ -2,3 +2,5 @@ Name: Mahmoud Hafez
+ ID: 192200089
+
+ hii
++This is the new branch
++
+
+commit 2f304dadc32d958b370132033e846aef6ea69f3e
+Author: mahmoud <mahmoudayman20055@yahoo.com>
+Date:   Wed Oct 22 21:48:02 2025 +0300
+
+    ssss
+
+diff --git a/mah.txt b/mah.txt
+index da0ee5a..95c75cb 100644
+--- a/mah.txt
++++ b/mah.txt
+@@ -2,4 +2,3 @@ Name: Mahmoud Hafez
+ ID: 192200089
+
+ hii
+-he
+\ No newline at end of file
+
+commit 428b56f37b6d8a2a190def75263a19d239458302
+Author: mahmoud <mahmoudayman20055@yahoo.com>
+Date:   Wed Oct 22 21:41:22 2025 +0300
+
+    fifth  commit
+
+diff --git a/mah.txt b/mah.txt
+index cd8f545..da0ee5a 100644
+--- a/mah.txt
++++ b/mah.txt
+@@ -2,4 +2,4 @@ Name: Mahmoud Hafez
+ ID: 192200089
+
+ hii
+-hell
+\ No newline at end of file
++he
+\ No newline at end of file
+
+commit 4627d8d146f34b87ebc441dc6a6cfa3905ff9623
+Author: mahmoud <mahmoudayman20055@yahoo.com>
+Date:   Wed Oct 22 21:41:00 2025 +0300
+
+    fourth  commit
+
+diff --git a/mah.txt b/mah.txt
+index f4025f0..cd8f545 100644
+--- a/mah.txt
++++ b/mah.txt
+@@ -2,4 +2,4 @@ Name: Mahmoud Hafez
+ ID: 192200089
+
+ hii
+-hello
+\ No newline at end of file
++hell
+\ No newline at end of file
+
+commit 1e83eb8bc4264f9c12614ecd253e34aa1fd6c1d5
+Author: mahmoud <mahmoudayman20055@yahoo.com>
+Date:   Wed Oct 22 21:40:18 2025 +0300
+
+    third commit
+
+diff --git a/mah.txt b/mah.txt
+index 95c75cb..f4025f0 100644
+--- a/mah.txt
++++ b/mah.txt
+@@ -2,3 +2,4 @@ Name: Mahmoud Hafez
+ ID: 192200089
+
+ hii
++hello
+\ No newline at end of file
+
+commit 24080750279cc5a7d39a08282eb36bfca7423c9e
+Author: mahmoud <mahmoudayman20055@yahoo.com>
+Date:   Wed Oct 22 21:36:52 2025 +0300
+
+    secondt commit
+
+diff --git a/mah.txt b/mah.txt
+index 411d02b..95c75cb 100644
+--- a/mah.txt
++++ b/mah.txt
+@@ -1,2 +1,4 @@
+ Name: Mahmoud Hafez
+ ID: 192200089
++
++hii
+
+commit df414216b01738fe360b2bda830760fa0ff6d553
+Author: mahmoud <mahmoudayman20055@yahoo.com>
+Date:   Wed Oct 22 21:35:22 2025 +0300
+
+    first commit
+
+diff --git a/mah.txt b/mah.txt
+new file mode 100644
+index 0000000..411d02b
+--- /dev/null
++++ b/mah.txt
+@@ -0,0 +1,2 @@
++Name: Mahmoud Hafez
++ID: 192200089
+
